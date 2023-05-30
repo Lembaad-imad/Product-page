@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin-bottom: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid  hsl(25, 100%, 94%);
+}
+header nav .list .divlogo img{
+    width: 85%;
+}
+header nav .divavatar img:last-child{
+    width: 30%;
+}
+header nav .divavatar{
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+    justify-content: flex-end;
+}
+header nav .list{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+header nav .list ul{
+    display: flex;
+    gap: 1.5rem;
+}
+header nav .list ul li{
+    list-style: none;
+}
+header nav .list ul li a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: hsl(219, 9%, 45%);
+    font-size: 14px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    padding: 40px 30px;
+}
+section .leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    width: 50%;
+}
+section .leftside .product-1{
+    width: 100%;
+    text-align: center;
+}
+section .leftside .product-1 img{
+    min-width: 75%;
+    border-radius: 10px;
+}
+section .leftside .moreproduct{
+    display: flex;
+    gap: 0.9rem;
+    justify-content: center;
+}
+section .leftside .moreproduct img{
+    border-radius: 10px;
+    width: 16.5%;
+}
+
+section .rightside{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.rightside .sneaker{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.rightside .sneaker p:first-child{
+    color: hsl(26, 100%, 55%);
+}
+.rightside .sneaker p:last-child{
+    margin: 8px 0 15px;
+    width: 80%;
+}
+.dolar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.dolar p{
+    text-decoration: line-through;
+}
+.dolar h2 span:last-child{
+   background: hsl(25, 100%, 94%);
+   padding: 5px;
+   font-size: 13px;
+   border-radius: 4px;
+   color: hsl(26, 100%, 55%);
+   position: relative;
+   left: 15px;
+   bottom: 3px;
+}
+.btn{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(25, 100%, 94%);
+    gap: 1rem;
+    padding: 7px;
+    align-items: center;
+    border-radius: 5px;
+}
+.btn img:last-child{
+    height: 8px;
+    width: 15px;
+}
+.btn p{
+    flex-grow: 1;
+    text-align: center;
+}
+.add{
+    background-color: hsl(26, 100%, 55%);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 40%;
+}
+.add a{
+   text-decoration: none;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   gap: 0.6rem;
+   justify-content: center;
+}
+.add a img{
+    width: 10%;
+}
+.divbotton{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 30px;
+}
